@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "username": "Mat",
+      "password": "211008",
+      "role": "admin"
+    }
+  ],
+  "config": {
+    "googleHomeConnected": false,
+    "zimaIp": ""
+  },
+  "friday": {
+    "facts": {},
+    "reminders": [],
+    "memory": [
+      {
+        "role": "user",
+        "content": "Comment tu vas?",
+        "ts": 1773763885991
+      },
+      {
+        "role": "friday",
+        "content": "Message reçu, Mat, mais je n'ai pas su comment l'interpréter. Essayez de me poser une question directe — bilan du jour, conseil, rappel...",
+        "ts": 1773763885993
+      }
+    ]
+  }
+}

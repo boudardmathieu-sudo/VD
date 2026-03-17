@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <!-- Dark background with rounded corners -->
+  <rect width="120" height="120" rx="24" fill="#0a0a12"/>
+
+  <!-- Outer hexagon ring -->
+  <polygon points="60,10 104,35 104,85 60,110 16,85 16,35"
+           fill="none" stroke="#f43f5e" stroke-width="1.5" opacity="0.9"/>
+
+  <!-- Mid hexagon ring -->
+  <polygon points="60,22 93,40.5 93,79.5 60,98 27,79.5 27,40.5"
+           fill="none" stroke="#a855f7" stroke-width="1" opacity="0.5"/>
+
+  <!-- Inner diamond -->
+  <polygon points="60,32 85,60 60,88 35,60"
+           fill="none" stroke="#f43f5e" stroke-width="1.2" opacity="0.7"/>
+
+  <!-- Vertical and horizontal cross lines -->
+  <line x1="60" y1="32" x2="60" y2="88" stroke="#a855f7" stroke-width="0.8" opacity="0.3"/>
+  <line x1="35" y1="60" x2="85" y2="60" stroke="#a855f7" stroke-width="0.8" opacity="0.3"/>
+
+  <!-- Diagonal accent lines from center -->
+  <line x1="60" y1="60" x2="104" y2="35" stroke="#f43f5e" stroke-width="0.6" opacity="0.25"/>
+  <line x1="60" y1="60" x2="16" y2="85" stroke="#f43f5e" stroke-width="0.6" opacity="0.25"/>
+
+  <!-- Corner dots on outer hexagon -->
+  <circle cx="60"  cy="10"  r="2.5" fill="#f43f5e"/>
+  <circle cx="104" cy="35"  r="2.5" fill="#c026d3"/>
+  <circle cx="104" cy="85"  r="2.5" fill="#a855f7"/>
+  <circle cx="60"  cy="110" r="2.5" fill="#7c3aed"/>
+  <circle cx="16"  cy="85"  r="2.5" fill="#a855f7"/>
+  <circle cx="16"  cy="35"  r="2.5" fill="#c026d3"/>
+
+  <!-- Center glow ring -->
+  <circle cx="60" cy="60" r="9" fill="none" stroke="#f43f5e" stroke-width="1.5" opacity="0.6"/>
+  <!-- Center fill -->
+  <circle cx="60" cy="60" r="5" fill="#f43f5e" opacity="0.9"/>
+  <circle cx="60" cy="60" r="2.5" fill="#fff" opacity="0.95"/>
+
+  <!-- Small tick marks on mid hexagon vertices -->
+  <circle cx="60"   cy="22"   r="1.5" fill="#a855f7" opacity="0.7"/>
+  <circle cx="93"   cy="40.5" r="1.5" fill="#a855f7" opacity="0.7"/>
+  <circle cx="93"   cy="79.5" r="1.5" fill="#a855f7" opacity="0.7"/>
+  <circle cx="60"   cy="98"   r="1.5" fill="#a855f7" opacity="0.7"/>
+  <circle cx="27"   cy="79.5" r="1.5" fill="#a855f7" opacity="0.7"/>
+  <circle cx="27"   cy="40.5" r="1.5" fill="#a855f7" opacity="0.7"/>
+</svg>
